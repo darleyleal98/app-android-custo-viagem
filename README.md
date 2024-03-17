@@ -4,4 +4,4 @@
   O aplicativo calcula o valor de uma viagem com base na distância especificada pelo usuário, valor do combustível e autonomia do automóvel.  
 </p>
 
-![image](https://github.com/darleyleal98/CustoViagem/assets/132721098/cd3a9af2-cd4b-4702-ba6e-200d31482867)
+![image](https://github.com/darleyleal98/CustoViagem/assets/132721098/c210cf01-5911-4b84-8211-fa596bd0ab49)
