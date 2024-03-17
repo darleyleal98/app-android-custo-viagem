@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/blue"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/travel_cost"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/edit_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fira_sans"
+        android:hint="@string/distance"
+        android:inputType="number"
+        android:padding="16dp"
+
+        tools:ignore="Autofill,TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/total_of_km" />
+
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/fira_sans"
+        android:hint="@string/amount"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+
+        tools:ignore="Autofill,TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/amount_per_liter" />
+
+    <EditText
+        android:id="@+id/edit_autonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/fira_sans"
+        android:hint="@string/autonomy"
+        android:inputType="number"
+        android:padding="16dp"
+
+        tools:ignore="Autofill,TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/kms_per_liter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="center"
+        android:text="@string/total_cost"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/text_amount_to_pay"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="center"
+        android:text="@string/r_0"
+        android:textAllCaps="true"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/calculate_cost"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
